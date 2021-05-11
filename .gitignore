@@ -1,0 +1,3 @@
+/build/
+/dike_test.egg-info/
+*.whl
