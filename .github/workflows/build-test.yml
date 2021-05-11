@@ -24,6 +24,7 @@ jobs:
 
     - name: Install python modules
       run: |
+        pip install wheel
         python setup.py bdist_wheel
         pip install dist/*whl
 
